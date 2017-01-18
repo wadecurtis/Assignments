@@ -11,7 +11,7 @@
 @implementation Car
 NSString *_model;
 - (id) initWithModel: (NSString *) model {
-    
+    self = [super init];
     _model = model;
     return self;
 }
